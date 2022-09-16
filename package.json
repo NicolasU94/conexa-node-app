@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/NicolasU94/conexa-node-app/issues"
   },
-  "homepage": "https://github.com/NicolasU94/conexa-node-app#readme"
+  "homepage": "https://github.com/NicolasU94/conexa-node-app#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
