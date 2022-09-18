@@ -22,9 +22,7 @@ const database = process.env.DATABASE.replace(
 //Connecting to MongoDB
 mongoose
   .connect(database, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
+    //Comment
   })
   .then((con) => {
     console.log("DB connection established");
